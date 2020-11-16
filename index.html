@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Video Slider | Mini Project 11</title>
+    <title>Interactive Tabs | Mini Project 12</title>
 
     <!-- --------------------------- CSS StyleSheet ---------------------------- -->
     <link rel="stylesheet" href="css/style.css" />
@@ -16,24 +16,67 @@
     <script src="js/main.js" defer></script>
   </head>
   <body>
-    <div class="slider">
-      <video class="slider__video" autoplay loop muted>
-        <source src="video/1.mp4" type="video/mp4" />
-      </video>
-      <ul class="slider__slides">
-        <li class="slider__slide">
-          <img src="/img/video-thumbnail-1.PNG" alt="" />
+    <div class="container">
+      <div class="col-left">
+        <li class="tab">
+          <img src="img/google.png" alt="" />
         </li>
-        <li class="slider__slide">
-          <img src="/img/video-thumbnail-2.PNG" alt="" />
+        <li class="tab">
+          <img src="img/facebook.svg" alt="" />
         </li>
-        <li class="slider__slide">
-          <img src="/img/video-thumbnail-3.PNG" alt="" />
+        <li class="tab">
+          <img src="img/twitter.png" alt="" />
         </li>
-        <li class="slider__slide">
-          <img src="/img/video-thumbnail-4.PNG" alt="" />
+        <li class="tab">
+          <img src="img/yahoo.png" />
         </li>
-      </ul>
+      </div>
+      <div class="col-right">
+        <li class="content">
+          <h2 class="container__title">About Google</h2>
+          <p class="container__desc">
+            Google, LLC is an American multinational technology company that
+            specializes in Internet-related services and products, which include
+            online advertising technologies, a search engine, cloud computing,
+            software, and hardware. It is considered one of the Big Five
+            technology companies in the U.S. information technology industry,
+            alongside Amazon, Facebook, Apple, and Microsoft.
+          </p>
+        </li>
+        <li class="content">
+          <h2 class="container__title">About Facebook</h2>
+          <p class="container__desc">
+            Facebook (stylized as facebook) is an American online social media
+            and social networking service based in Menlo Park, California, and a
+            flagship service of the namesake company Facebook, Inc. It was
+            founded by Mark Zuckerberg, along with fellow Harvard College
+            students and roommates Eduardo Saverin, Andrew McCollum, Dustin
+            Moskovitz, and Chris Hughes.
+          </p>
+        </li>
+        <li class="content">
+          <h2 class="container__title">About Twitter</h2>
+          <p class="container__desc">
+            Twitter is an American microblogging and social networking service
+            on which users post and interact with messages known as "tweets".
+            Registered users can post, like and retweet tweets, but unregistered
+            users can only read them. Users access Twitter through its website
+            interface, through Short Message Service (SMS) or its mobile-device
+            application software ("app").
+          </p>
+        </li>
+        <li class="content">
+          <h2 class="container__title">About Yahoo</h2>
+          <p class="container__desc">
+            Yahoo! is an American web services provider headquartered in
+            Sunnyvale, California, and owned by Verizon Media. The original
+            Yahoo! company was founded by Jerry Yang and David Filo in January
+            1994 and was incorporated on March 2, 1995. Yahoo was one of the
+            pioneers of the early Internet era in the 1990s. It provides or
+            provided a Web portal, search engine Yahoo! Search.
+          </p>
+        </li>
+      </div>
     </div>
   </body>
 </html>
