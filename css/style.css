@@ -53,6 +53,11 @@ body {
 
 .col-left li img {
   width: 150px;
+  transition: all 0.3s;
+}
+
+.col-left li:hover img {
+  width: 180px;
 }
 
 .col-left li:nth-of-type(1):hover {
